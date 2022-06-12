@@ -78,7 +78,9 @@ div.main-container {
 }
 
 .form-section > p {
+    font-weight: 900;
     margin-top: 0px;
+    color: #317dad;
 }
 
 .form-section > form {
