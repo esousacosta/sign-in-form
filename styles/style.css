@@ -1,0 +1,95 @@
+body {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 0px;
+}
+
+div.main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* div.left-container, div.right-container {
+    flex: auto;
+} */
+
+.hero-text {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.left-container {
+    background: url("../images/assault-rifle.jpg") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: auto;
+    height: 100vh;
+    flex: 1 1 auto;
+}
+
+.left-card-container {
+    height: 100%;
+}
+
+.card-image {
+    width: max(100%, 50vw);
+    height: 100%;
+}
+
+.right-container {
+    background-color: rgb(254, 254, 234);
+    width: clamp(40ch, 65vw, 75ch);
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+}
+
+.right-container > * {
+    padding: max(20px, 3vw);
+}
+
+#user-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-section {
+    box-shadow: 2px 2px 2px rgba(30, 30, 30, 0.2);
+    background-color: rgb(255, 255, 255);
+    flex: 0 1 auto;
+    max-height: min(300px, 30vh);
+}
+
+.form-section > form {
+    height: 300px;
+    flex: 0 1 auto;
+}
+
+.form-container {
+    padding: 0px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+}
+
+.form-field {
+    height: 50px;
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+input {
+    flex: 0 1 auto;
+    max-width: 45ch;
+    max-height: 20px;
+}
+
